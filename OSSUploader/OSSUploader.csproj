@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\lib\plupload-2.1.2\js\moxie.js" />
+    <None Include="wwwroot\lib\plupload-2.1.2\js\moxie.min.js" />
+    <None Include="wwwroot\lib\plupload-2.1.2\js\Moxie.swf" />
+    <None Include="wwwroot\lib\plupload-2.1.2\js\Moxie.xap" />
+    <None Include="wwwroot\lib\plupload-2.1.2\js\plupload.dev.js" />
+    <None Include="wwwroot\lib\plupload-2.1.2\js\plupload.full.min.js" />
+    <None Include="wwwroot\lib\plupload-2.1.2\js\plupload.min.js" />
+    <None Include="wwwroot\lib\plupload-2.1.2\license.txt" />
+    <None Include="wwwroot\lib\plupload-2.1.2\readme.md" />
+    <None Include="wwwroot\style.css" />
+    <None Include="wwwroot\upload.js" />
+  </ItemGroup>
+
+</Project>
